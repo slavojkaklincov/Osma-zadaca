@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+}
+body{
+    margin: auto;
+    width: 60%;
+    height: 75%;
+    background-color: #2F4F4F;
+    box-shadow: 1px 1px 9px 9px #212121;
+    
+}
+
+.page{
+    margin-top: 30px;
+    display: flex;
+    
+}
+
+.left-side{
+    width: 33%;
+    background-color: black;
+    color: white;
+}
+
+h2{
+    padding: 10px 7px;
+}
+.left-lorem{
+    padding: 0px 5px 30px 7px;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.right2{
+background-color: #E9E9E9;
+font-size: 13px;
+}
+
+.right2 p{
+    margin-left: 25px;
+    font-size: 13px;
+}
+
+.right1,.right3{
+    padding: 32px 15px 0px 10px;
+    background-color: white;
+}
+
+.right3,.right2,.right1{
+    padding-bottom: 20px;
+}
+
+.data{
+    display: flex;
+    margin-left: 15px;
+    
+}
+
+.education{
+    margin-left: 20px;
+}
+
+.bold{
+    font-weight: bold;
+}
+h3{
+    margin: 20px 0px 10px 15px;
+    color: #5F9EA0;
+
+}
+
+.right-lorem{
+    margin-left: 15px;
+}
+
+
+hr{
+    margin: 15px;
+}
+.italic{
+font-style: italic;
+color: gray;
+font-size: 13px;
+}
+.data-other{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.data-place{
+    margin-top: 10px;
+}
